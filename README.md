@@ -47,3 +47,20 @@ print(telepon.values())
 
 #### Output hasilnya adalah
 ![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204073331-cf39925b-b05e-4c19-b5f3-b72d1f216238.png)
+
+#### Untuk menampilkan daftar nama dan nomor dengan perintah "for"
+```
+for nama,nomor in telepon.items():
+    print("%s \t| %s " % (nama,nomor))
+```
+
+#### Output hasilnya adalah
+![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204075423-bb4a89a7-e386-4f1e-b1ff-6fe7c34481ba.png)
+
+#### Hapus kontak Sinta menggunakan perintah
+```
+del telepon['sinta']
+```
+
+#### Ouput yang di hasilkan adalah
+![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204075500-ff1d93cc-fd60-44d0-8fd1-c3e14eaff9c1.png)
