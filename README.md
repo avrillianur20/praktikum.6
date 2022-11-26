@@ -11,3 +11,9 @@ Dictionary ditulis dengan dipisahkan koma dalam
 ```
 {}
 ```
+```
+telepon = {
+    'ike' : '085783345975',
+    'lia' : '081286209858'
+}
+```
