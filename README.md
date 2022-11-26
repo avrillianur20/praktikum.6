@@ -38,3 +38,12 @@ print(telepon.keys())
 ```
 
 #### Output hasil nya akan seperti ini
+![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204073267-156d9744-3253-4c2e-a46a-c377219da27c.png)
+
+#### Kemudian untuk menampilkan suatu nilai semua nomor menggunakan perintah
+```
+print(telepon.values())
+```
+
+#### Output hasilnya adalah
+![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204073331-cf39925b-b05e-4c19-b5f3-b72d1f216238.png)
