@@ -112,3 +112,39 @@ def add():
     akhir = (tugas * 30 / 100) + (uts * 35 / 100) + (uas * 35 / 100)
     mahasiswa[nama] = nim, tugas, uts, uas, akhir
 ```
+##### Output nya adalah
+![Screenshot (623)](https://user-images.githubusercontent.com/115686359/204093032-459ba695-0640-472d-a479-7073cfaabc0e.png)
+
+##### 3. Buat program untuk menghapus data
+```
+def delete():
+    print("Hapus Data")
+    nama = input("Masukkan Nama : ")
+
+    if nama in mahasiswa.keys():
+        del mahasiswa[nama]
+
+    else:
+        print("Nama tidak ditemukan")
+```
+##### Outputnya adalah
+![Screenshot (625)](https://user-images.githubusercontent.com/115686359/204093404-8585f309-2ee8-4862-bf72-ae27841ed078.png)
+
+Data akan terhapus
+
+![Screenshot (625)](https://user-images.githubusercontent.com/115686359/204093460-6cd5234b-a0c7-43d6-9fad-772884983c0f.png)
+
+##### 4. Program untuk mencari data
+```
+def search():
+    print("Cari Data")
+    a = input("Masukkan Nama : ")
+    if a in mahasiswa.keys():
+        print("===========================================================================")
+        print("|      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir   |")
+        print("===========================================================================")
+        print("| {0:14s} | {1:11s} | {2:7d} | {3:7d} | {4:7d} |     {5:6.2f} |"
+              .format(a, mahasiswa[a][0], mahasiswa[a][1], mahasiswa[a][2], mahasiswa[a][3], mahasiswa[a][4]))
+        print("===========================================================================")
+```
+##### Output yang keluar adalah
