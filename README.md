@@ -97,3 +97,8 @@ def show():
 ```
 "else" Digunakan untuk menampilkan jika ada nama yang diketik tidak ada.
 
+##### Outputnya adalah
+![Screenshot (622)](https://user-images.githubusercontent.com/115686359/204092088-9cff7aff-9382-4c72-b404-dd8689f4145a.png)
+
+##### 2. Program untuk menambahkan data nya
+```
