@@ -71,6 +71,8 @@ del telepon['sinta']
 ```
 mahasiswa = {}
 ```
+##### 1. Buat program untuk lihat data nya
+
 ```
 def show():
     if mahasiswa.items():
@@ -93,3 +95,5 @@ def show():
         print("|                                TIDAK ADA DATA                                 |")
         print("=================================================================================")
 ```
+"else" Digunakan untuk menampilkan jika ada nama yang diketik tidak ada.
+
