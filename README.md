@@ -209,6 +209,7 @@ while True:
 ![Screenshot (630)](https://user-images.githubusercontent.com/115686359/204096728-f9a29c23-28f9-4ae4-94cb-8950fbe656fe.png)
 
 Maka data nya akan otomatis berubah
+
 ![Screenshot (630)](https://user-images.githubusercontent.com/115686359/204096780-a9b4ffc8-9e0c-4d9a-abf3-8fcdba0174d8.png)
 
 # Flowchart
