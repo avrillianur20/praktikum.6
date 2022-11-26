@@ -8,9 +8,7 @@
 
 # Latihan 1
 #### Dictionary ditulis dengan dipisahkan koma dalam
-```
-{}
-```
+```{}```
 ```
 telepon = {
     'ike' : '085783345975',
@@ -205,3 +203,6 @@ while True:
     menu()
 ```
 ##### Output Keluar
+![Screenshot (629)](https://user-images.githubusercontent.com/115686359/204095185-9b3bf7a2-5395-43bc-8964-dbb926c5baab.png)
+
+# Flowchart
