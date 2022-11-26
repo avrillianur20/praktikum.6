@@ -115,6 +115,10 @@ def add():
 ##### Output nya adalah
 ![Screenshot (623)](https://user-images.githubusercontent.com/115686359/204093032-459ba695-0640-472d-a479-7073cfaabc0e.png)
 
+![Screenshot (627)](https://user-images.githubusercontent.com/115686359/204094085-d847e2b8-c53c-4a99-befa-69c4686f610b.png)
+
+![Screenshot (628)](https://user-images.githubusercontent.com/115686359/204094179-6b3f0db6-b487-4e80-95a8-0d3a147562dc.png)
+
 ##### 3. Buat program untuk menghapus data
 ```
 def delete():
@@ -146,5 +150,17 @@ def search():
         print("| {0:14s} | {1:11s} | {2:7d} | {3:7d} | {4:7d} |     {5:6.2f} |"
               .format(a, mahasiswa[a][0], mahasiswa[a][1], mahasiswa[a][2], mahasiswa[a][3], mahasiswa[a][4]))
         print("===========================================================================")
+ else:
+        print("=================================================================================")
+        print("| No |      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir    |")
+        print("=================================================================================")
+        print("|                          DATA TIDAK DITEMUKAN                                 |")
+        print("=================================================================================")
 ```
 ##### Output yang keluar adalah
+![Screenshot (626)](https://user-images.githubusercontent.com/115686359/204094295-ec18da03-d3ce-440a-a0de-a3855c089a8a.png)
+
+program ini untuk mencari data yang di inputkan
+
+##### 5. Program untuk menunya
+```
