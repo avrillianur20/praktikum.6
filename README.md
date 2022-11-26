@@ -64,3 +64,8 @@ del telepon['sinta']
 
 #### Ouput yang di hasilkan adalah
 ![Screenshot (621)](https://user-images.githubusercontent.com/115686359/204075500-ff1d93cc-fd60-44d0-8fd1-c3e14eaff9c1.png)
+
+# Tugas Praktikum
+
+#### Buat Dictionary kosong
+```
