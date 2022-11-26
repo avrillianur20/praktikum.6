@@ -164,3 +164,44 @@ program ini untuk mencari data yang di inputkan
 
 ##### 5. Program untuk menunya
 ```
+def menu():
+    print("\n")
+    print("================================")
+    print("      Program input nilai       ")
+    print("================================\n")
+
+    x = input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar]: ")
+    print("\n")
+
+    if x == 'L':
+        show()
+    elif x == 'T':
+        add()
+    elif x == 'U':
+        update()
+    elif x == 'H':
+        delete()
+    elif x == 'C':
+        search()
+    elif x == 'K':
+        print("==========================================================================")
+        print('\n')
+        print("> You exit the code                        ")
+        print("\n")
+        print("==========================================================================")
+
+        exit()
+
+    else:
+        print("            KODE YANG ANDA MASUKKAN TIDAK VALID !!!!!!!!!!!")
+
+```
+program ini bisa diketik L/T/U/H/C/K, maka akan menjalankan perintah program tersebut.
+```show()```, ```add()```, ```update()```, ```delete()```, ```search()```
+
+##### 6. Kode yang akan berjalan menggunakan perintah
+```
+while True:
+    menu()
+```
+##### Output Keluar
