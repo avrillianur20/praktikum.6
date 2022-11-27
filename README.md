@@ -213,3 +213,4 @@ Maka data nya akan otomatis berubah
 ![Screenshot (630)](https://user-images.githubusercontent.com/115686359/204096780-a9b4ffc8-9e0c-4d9a-abf3-8fcdba0174d8.png)
 
 # Flowchart
+![Screenshot (632)](https://user-images.githubusercontent.com/115686359/204137032-75b6ae7f-6fb3-472a-977d-e25c629a3359.png)
